@@ -1,5 +1,7 @@
 .carousel {
     height: 80vh;
+    z-index: -1;
+    position: absolute;
     .carousel-indicators {
         display: none;
     }

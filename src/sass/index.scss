@@ -1,3 +1,19 @@
-
+//Fonts
+@font-face {
+    font-family: "bodoni";
+    src: url("../assets/fonts/bodoni.ttf");
+  }
+  @font-face {
+    font-family: "gotham-bold";
+    src: url("../assets/fonts/gotham-bold.ttf");
+  }
+  @font-face {
+    font-family: "gotham-book";
+    src: url("../assets/fonts/gotham-book.ttf");
+  }
+  @font-face {
+    font-family: "gotham-medium";
+    src: url("../assets/fonts/gotham-medium.ttf");
+  }
 // Helpers
 @import 'ownBootstrap'

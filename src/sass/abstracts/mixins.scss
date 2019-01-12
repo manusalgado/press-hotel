@@ -1,8 +1,8 @@
 %themeContainer {
-    width: 71%;
-    margin-right: auto!important;
-		margin-left: auto!important;
-    @media (max-width: 600px) {
-        width: 100%;
-    }
+	width: 71%;
+	margin-right: auto !important;
+	margin-left: auto !important;
+	@media (max-width: 768px) {
+		width: 100%;
+	}
 }

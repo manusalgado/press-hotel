@@ -4,9 +4,9 @@ export const WrapperHeader = styled.div`
 	height: 336px;
 	.WrapperHeader__content {
 		align-items: center;
-    display: flex;
-    margin: 70px auto;
-    height: 80px;
+		display: flex;
+		margin: 70px auto;
+		height: 80px;
 		background-color: rgba(255, 255, 255, 0.9);
 		position: relative;
 		h4 {
@@ -20,7 +20,7 @@ export const WrapperHeader = styled.div`
 		}
 		a {
 			display: block;
-    	margin: 0px auto;
+			margin: 0px auto;
 		}
 		@media (max-width: 600px) {
 			margin: 70px 0;

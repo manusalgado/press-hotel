@@ -15,5 +15,13 @@
     font-family: "gotham-medium";
     src: url("../assets/fonts/gotham-medium.ttf");
   }
-// Helpers
-@import 'ownBootstrap'
+
+  // Configuration and helpers
+@import 'abstracts/mixins';
+
+// Components  
+@import 
+  'components/TopContent',
+  'components/Header',
+  'ownBootstrap';
+

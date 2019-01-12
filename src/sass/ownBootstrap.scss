@@ -1,8 +1,17 @@
 .carousel {
-    height: 80vh;
-    z-index: -1;
+    height: 100vh;
     position: absolute;
-    .carousel-indicators {
-        display: none;
+    background-color: #000000;
+    .carousel-inner {
+        height: 80vh;
+		}
+		.carousel-indicators {
+			display: none;
+		}
+    img {
+        width: 100%;
     }
+}
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+	top: 40%;
 }

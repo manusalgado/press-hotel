@@ -7,14 +7,14 @@ const Header = () => {
 			<header>
 				<div className='container'>
 					<div className='row'>
-						<div className='col s12'>
-							<WrapperHeader>
+						<WrapperHeader className='col s12'>
+							<div className='WrapperHeader__content'>
 								<h4>Portland, Maine</h4>
 								<a href='/'>
-									<img src={logo} alt='Logo'/>
+									<img src={logo} alt='Logo' width='150' />
 								</a>
-							</WrapperHeader>
-						</div>
+							</div>
+						</WrapperHeader>
 					</div>
 				</div>
 			</header>

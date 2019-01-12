@@ -1,20 +1,24 @@
 //Fonts
 @font-face {
-    font-family: "bodoni";
-    src: url("../assets/fonts/bodoni.ttf");
-  }
-  @font-face {
-    font-family: "gotham-bold";
-    src: url("../assets/fonts/gotham-bold.ttf");
-  }
-  @font-face {
-    font-family: "gotham-book";
-    src: url("../assets/fonts/gotham-book.ttf");
-  }
-  @font-face {
-    font-family: "gotham-medium";
-    src: url("../assets/fonts/gotham-medium.ttf");
-  }
+  font-family: "bodoni";
+  src: url("../assets/fonts/bodoni.ttf");
+}
+@font-face {
+  font-family: "gotham-bold";
+  src: url("../assets/fonts/gotham-bold.ttf");
+}
+@font-face {
+  font-family: "gotham-book";
+  src: url("../assets/fonts/gotham-book.ttf");
+}
+@font-face {
+  font-family: "gotham-medium";
+  src: url("../assets/fonts/gotham-medium.ttf");
+}
+@font-face {
+  font-family: "interstate";
+  src: url("../assets/fonts/interstate-light-cond.otf");
+}
 
   // Configuration and helpers
 @import 'abstracts/mixins';
@@ -23,5 +27,6 @@
 @import 
   'components/TopContent',
   'components/Header',
+  'components/MainContent',
   'ownBootstrap';
 

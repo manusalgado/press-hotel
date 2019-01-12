@@ -1,28 +1,30 @@
 import React from 'react'
+import { WrapperMainContent, MainContentTheme } from './styles'
+import room from '../../assets/images/room.png'
 
 const MainContent = () => {
     return (
-      <main>
+      <MainContentTheme>
 				<div className='container'>
 					<div className='row'>
-						<div className='col s12 m4 l4'>
-							<h5>Accommodations</h5>
-							<h3>Hollywood, meet industrial chic</h3>
-							<p>Lorem ipsum dolor sit amet, donec luctus vel, augue duis. Volup
-									Lorem ipsum dolor sit amet, donec luctus vel, augue duis. Volup
-									Lorem ipsum dolor sit amet, donec luctus vel, augue duis. Volup
-									Lorem ipsum dolor sit amet, donec luctus vel, augue duis. Volup
-									Lorem ipsum dolor sit amet, donec luctus vel, augue duis. Volup
-									Lorem ipsum dolor sit amet, donec luctus vel, augue duis. Volup
-							</p>
-							<button>View Rooms</button>
-						</div>
-						<div className='col s12 m8 l8'>
-							<img src='' alt='test'/>
-						</div>
+						<WrapperMainContent className='col s12'>
+							<div className='row WrapperMainContent__content'>
+								<div className='col s12 m5 l5 WrapperMainContent__content--description'>
+									<h5>Accommodations</h5>
+									<h3>Hollywood, meet industrial chic</h3>
+									<p>Lorem ipsum dolor sit amet, donec luctus vel, augue duis. Volup
+											Lorem ipsum dolor sit amet, donec luctus vel, augue duis. Volup
+									</p>
+									<button>View Rooms</button>
+								</div>
+								<div className='col s12 m7 l7 WrapperMainContent__content--image'>
+									<img src={room} alt='Room' />
+								</div>
+							</div>
+						</WrapperMainContent>
 					</div>
 				</div>
-			</main>
+			</MainContentTheme>
     )
 }
 

@@ -1,4 +1,8 @@
 %themeContainer {
     width: 71%;
-    margin: auto;
+    margin-right: auto!important;
+		margin-left: auto!important;
+    @media (max-width: 600px) {
+        width: 100%;
+    }
 }

@@ -31,10 +31,9 @@ export const WrapperTopContent = styled.div`
 			line-height: 22px;
 			color: #FFFFFF;
 			font-family: "Arial", sans-serif;
-			padding: 40px 60px 100px 60px;
+			padding: 30px 60px 100px 60px;
 		}
 		@media (max-width: 600px) {
-			width: 100%;
 			h1 {
 				width: 100%;
 			}

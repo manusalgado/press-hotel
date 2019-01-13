@@ -1,0 +1,18 @@
+.Child__input-container {
+  div {
+    input {
+      background-image: url('../assets/icons/calendar.png');
+    }
+  }
+  .Child__select {
+    select {
+      background-image: url('../assets/icons/select.png');
+    }
+  }
+}
+
+// Hide form 
+
+.WrapperBookingForm {
+  width: 0!important;
+}

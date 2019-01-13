@@ -1,10 +1,12 @@
 import React from 'react'
 import {WrapperHeader} from './styles'
 import logo from '../../assets/images/logo.png'
+import BookingForm from '../BookingForm'
 
 const Header = () => {
 	return (
 		<header>
+			<BookingForm />
 			<div className="container">
 				<div className="row">
 					<WrapperHeader className="col s12">

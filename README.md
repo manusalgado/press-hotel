@@ -1,5 +1,7 @@
 # press-hotel
 
+Open the link and reload the page.
+Demo: https://frozen-harbor-32601.herokuapp.com/
 ## Requirements
 
 For development, you will only need Node.js installed on your environement.
